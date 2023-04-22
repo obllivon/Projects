@@ -1,0 +1,79 @@
+footer
+    padding: 44px 0 20px
+    background: #1C2835 url(../img/footer/mobile.png) no-repeat 
+    background-size: 258px 220px
+    background-position: 88% 112%
+    @media screen and ( max-width:1400px  )
+        background: #1C2835
+    .footer__inner
+        display: flex
+        justify-content: space-between
+        .footer__left
+            .footer__info
+                width: 663px
+                display: flex
+                justify-content: space-between
+                @media (max-width:1110px)
+                    max-width:600px
+                    padding: 10px
+                @media screen and ( max-width: 770px )
+                    width: 100%
+                .footer__ul
+                    @media screen and ( max-width: 740px )
+                        display: none  
+                              
+                    ul
+                        li
+                            margin-top: 10px
+                            &:nth-child(1)
+                                margin:0
+                                  
+                            .liA
+                                font-weight: 400
+                                font-size: 19px
+                            a
+                                font-weight: 300
+                                font-size: 16px
+                                color: #FFF
+                    @media screen and ( max-width: 770px )
+                        &:last-child
+                            display: none
+
+                            
+                                                       
+            .footer__down
+                margin-top: 39px
+                display: flex
+                justify-content: space-between  
+                align-items: flex-end
+                width: 684px
+                @media (max-width:1110px)
+                    width: 100%
+                    padding: 20px
+                span
+                    font-weight: 300
+                    font-size: 16px
+                    color: #FFF
+                .footer_down_icon
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    width: 143px
+        .footer__right
+            display: flex
+            flex-direction: column
+            align-items: flex-end
+            p
+                font-weight: 500
+                font-size: 19px
+                color: #fff
+            .footer__btn
+                float: right
+                width: fit-content
+                margin-top: 20px
+                margin-bottom: 20px        
+                // margin-left: auto            
+            // .footer__img
+            //     float: right
+
+            

@@ -1,0 +1,98 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1000;
+}
+.header__inner {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 204px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1c2835;
+}
+.btns {
+  display: flex;
+  column-gap: 20px;
+}
+@media (max-width: 412px){
+  .btns{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+  }
+  .btn__add{
+    margin-right: 0 !important;
+  }
+  
+
+}
+  
+
+
+.btn__add {
+  width: 230px !important;
+  height: 45px !important;
+  background: #90ebff !important;
+  border-radius: 15px !important;
+  font-size: 16px !important;
+  color: #1c2835 !important;
+  
+  border: none !important;
+}
+
+
+.btn__signUp {
+  width: 108px;
+  height: 45px;
+  background: #1c2835;
+  border-radius: 15px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+  @media (max-width: 600px) {
+    .btn__add {
+      width: 180px;
+      height: 45px;
+    }
+    .btn__signUp{
+      width: 80px;
+    }
+  }
+  @media (max-width:520px){
+  .btn__add{
+    display: none;
+  }
+  }
+  @media (max-width:370px){
+  .btn__signUp{
+    display: none;
+  }
+  .logo {
+    width: 98px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+  }
+  .logo h2{
+    font-size: 12px;
+  }
+  .logo_img{
+    width: 18px;
+    height: 15px;
+  }
+  }

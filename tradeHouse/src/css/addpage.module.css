@@ -1,0 +1,473 @@
+.quest {
+    width: 500px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 63px;
+}
+.btn2 {
+    height: 81px;
+    width: 133px;
+    padding: 13px 30px 13px 30px;
+    display: grid;
+    place-items: center;
+    border: none;
+    outline: none;
+}
+.btn {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 81px;
+    width: 133px;
+    left: 0;
+    top: 0;
+    border-radius: 15px;
+    padding: 13px 30px 13px 30px;
+    background: #1C2835;
+    color: #F3F3F5;
+}
+.btn img {
+    height: 24px;
+    width: 24px;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+}
+.chooseHouse {
+    display: flex;
+    column-gap: 30px;
+}
+.trip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 81px;
+    width: 144px;
+    border-radius: 15px;
+    padding: 13px 30px 13px 30px;
+    border: 2px solid #F3F3F5;
+}
+.trip:focus:visited {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 81px;
+    width: 144px;
+    border-radius: 15px;
+    padding: 13px 30px 13px 30px;
+    background-color: #1C2835;
+    color: #F3F3F5;
+}
+.trip2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 30px;
+    gap: 10px;
+    width: 175px;
+    height: 81px;
+    border: 2px solid #F3F3F5;
+    border-radius: 15px;
+}
+.trip2:focus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    gap: 10px;
+    width: 175px;
+    height: 81px;
+    background-color: #1C2835;
+    color: #F3F3F5;
+    border-radius: 15px;
+}
+.trip img {
+    width: 24px;
+    height: 24px;
+}
+.trip2 img {
+    width: 24px;
+    height: 24px;
+}
+.addInp {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.adressInp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 387px;
+    height: 49px;
+    border: 1px solid #E0E0E0;
+    border-radius: 15px;
+}
+.InputAdd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 183px;
+    height: 49px;
+    border: 1px solid #E0E0E0;
+    border-radius: 15px;
+}
+.Mapping {
+    width: 590px;
+    height: 313px;
+    border-radius: 10px;
+    background: url("https://assets-global.website-files.com/6050a76fa6a633d5d54ae714/609147088669907f652110b0_report-an-issue(about-maps).jpeg");
+    background-size: cover;
+}
+.Contacts p {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5C5C5C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.HumanChoose {
+    display: flex;
+    margin-bottom: 30px;
+}
+.your {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 30px;
+    gap: 10px;
+    width: 162px;
+    height: 45px;
+    border: #F3F3F5;
+    border-radius: 15px;
+    color: #5C5C5C;
+}
+.your:focus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 30px;
+    gap: 10px;
+    width: 162px;
+    height: 45px;
+    background: #1C2835;
+    border-radius: 15px;
+    color: #F3F3F5;
+}
+.agent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding: 13px 30px;
+    gap: 10px;
+    width: 105px;
+    height: 45px;
+    border: #F3F3F5;
+    border-radius: 15px;
+    color: #5C5C5C;
+}
+.agent:focus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding: 13px 30px;
+    gap: 10px;
+    width: 105px;
+    height: 45px;
+    background: #1C2835;
+    border-radius: 15px;
+    color: #F3F3F5;
+}
+.numberPhone p {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5C5C5C;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.Number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 387px;
+    height: 49px;
+    border: 1px solid #E0E0E0;
+    border-radius: 15px;
+}
+.floorInp {
+    padding: 15px 20px;
+    gap: 10px;
+    width: 82px;
+    height: 49px;
+    border: 1px solid #E0E0E0;
+    border-radius: 15px;
+
+}
+.KvartInfo p {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5C5C5C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.hentaibtn {
+    display: flex;
+    margin-bottom: 30px;
+}
+.btnRoom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 30px;
+    margin-right: 15px;
+    gap: 10px;
+    width: 67px;
+    height: 45px;
+    border: #F3F3F5;
+    border-radius: 15px;
+}
+.btnRoom:focus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 30px;
+    margin-right: 15px;
+    gap: 10px;
+    width: 67px;
+    height: 45px;
+    background: #1C2835;
+    color: #F3F3F5;
+    border-radius: 15px;
+}
+
+.btnRoom2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 30px;
+    gap: 10px;
+    width: 80px;
+    height: 45px;
+    border: #F3F3F5;
+    border-radius: 15px;
+}
+.btnRoom2:focus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 30px;
+    gap: 10px;
+    width: 80px;
+    height: 45px;
+    background: #1C2835;
+    color: #F3F3F5;
+    border-radius: 15px;
+}
+.miles input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 100px;
+    height: 49px;
+    border: 1px solid #E0E0E0;
+    border-radius: 15px;
+}
+.miles2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.miles3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.heightInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 82px;
+    height: 49px;
+    border: 1px solid #E0E0E0;
+    border-radius: 15px;
+}
+.Toilets {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Toilets2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Toilets p {
+    margin-left: 15px;
+}
+.Toilets2 p {
+    margin-left: 15px;
+}
+.Toilet button {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #1C2835;
+    border-radius: 2px;
+}
+.Toilets input {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #1C2835;
+    border-radius: 2px;
+}
+input[type="checkbox"]:checked::before {
+    content: '✔';
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #1C2835;
+}
+.Window {
+    margin-top: 40px;
+}
+
+.Window input {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #1C2835;
+    border-radius: 2px;
+}
+
+.Window1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.Window1 p {
+    margin-left: 15px;
+}
+.Window2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.Window2 p {
+    margin-left: 15px;
+}
+.Window1 button:focus {
+    background-color: #1C2835;
+    color: #E0E0E0;
+}
+.Window2 button:focus {
+    background-color: #1C2835;
+    color: #F3F3F5;
+}
+.PhotoInp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 60px 51px;
+    gap: 5px;
+    width: 488px;
+    height: 139px;
+    border: 1px dashed #1C2835;
+    border-radius: 10px;
+}
+.VideoInp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 488px;
+    height: 49px;
+    border: 1px solid #1C2835;
+    border-radius: 15px;
+}
+.TextArea {
+    margin-top:30px;
+    margin-bottom: 50px;
+    padding: 15px 20px;
+    gap: 10px;
+    width: 488px;
+    height: 170px;
+    border: 1px solid #1C2835;
+    border-radius: 15px;
+}
+.Add {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 30px;
+    gap: 10px;
+    width: 183px;
+    height: 47px;
+    background-color: #90EBFF;
+    border: #90EBFF;
+    color: #1C2835;
+    border-radius: 15px;
+}
+.Add span {
+    width: 123px;
+    height: 21px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+}

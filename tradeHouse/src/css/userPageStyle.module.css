@@ -1,0 +1,89 @@
+.user__Page {
+  background-color: #f0f0f0;
+}
+.user__Page__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../img/userPage/titleBg.jpg') no-repeat center/cover;
+  min-height: 300px;
+}
+.title h1 {
+  font-size: 64px;
+  color: #ffffff;
+}
+
+/* user__panel */
+
+.user__panel {
+}
+.user__panel h2 {
+  color: #1d1c1c;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.panel__parent {
+  margin-top: 20px;
+  margin-bottom: 9px;
+  padding: 31px 100px 34px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 326px;
+  height: 140px;
+  border: 1px solid #958e8e;
+  border-radius: 10px;
+}
+.panel__fav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.panel__fav {
+  font-size: 20px;
+  line-height: 24px;
+  color: #6f6c6c;
+}
+
+/* btn back */
+.btn__back {
+  padding: 25px 59px 26px 61px;
+  width: 326px;
+  height: 73px;
+  border: 1px solid #958e8e;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.btn__back span {
+  font-size: 20px;
+  line-height: 24px;
+  color: #7bce27;
+}
+
+/* panel__info */
+
+.panel__info {
+  min-width: 791px;
+  padding-bottom: 60px;
+}
+.panel__info__person {
+  border-bottom: 1px solid #a5a1a1;
+  height: 69px;
+  display: flex;
+  justify-content: flex-end;
+}
+.panel__info__person span {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 32px;
+  color: #1D1C1C;
+  margin-right: 25px;
+}
